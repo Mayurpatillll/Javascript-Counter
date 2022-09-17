@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;0,900;1,300&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 100px;
+}
+
+.counter {
+    margin: 0px 20px;
+    padding: 20px;
+    text-align: center;
+    background-image: linear-gradient(#EFF54D, #00AC61);
+    border-radius: 10px;
+    border: 5px solid white;
+    margin-top: 50px;
+}
+
+.counter h1 {
+    margin: 10px 0px;
+}
+
+.counter p {
+    line-height: 30px;
+}
+
+#hitesh {
+    background-color: black;
+    background-image: linear-gradient(#FED54A, #FF9347);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.about img {
+    position: absolute;
+    top: 140px;
+    left: 650px;
+    border-radius: 10px;
+    border: 5px solid white;
+}
+
+.about h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+    .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+}
